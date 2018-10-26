@@ -10,7 +10,7 @@ import sys
 sys.path.append(os.curdir)
 from pelicanconf import *
 
-SITEURL = 'https://www.utterbergdatadev.com'
+SITEURL = '127.0.0.1:8000'
 RELATIVE_URLS = False
 
 FEED_ALL_ATOM = 'feeds/all.atom.xml'
@@ -22,3 +22,5 @@ DELETE_OUTPUT_DIRECTORY = True
 
 #DISQUS_SITENAME = ""
 #GOOGLE_ANALYTICS = ""
+TWITTER_USERNAME = 'mutterberg'
+GITHUB_CORNER_URL = 'https://www.github.com/mutterberg/'
